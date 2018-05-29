@@ -13,7 +13,6 @@ class personage(Sprite):
         self.rect.x = x
         self.rect.y = y
 
-        # self.image.set_colorkey((0, 0, 0))
         self.image.set_colorkey((0, 255, 40))
         self.Pers = pyganim.PygAnimation(arr_anim)
         self.Pers.play()
@@ -24,7 +23,7 @@ class personage(Sprite):
         self.image.fill((0, 255, 40))
         self.Pers.blit(self.image, (0, 0))
 
-'''Анимация частиц'''
+'''Анимация частицv'''
 class spurkle(Sprite):
 
     def __init__(self, w, h, x, y, arr_anim):
@@ -35,7 +34,6 @@ class spurkle(Sprite):
         self.rect.y = y
 
         self.image.set_colorkey((0, 0, 0))
-        # self.image.set_colorkey((0, 255, 40))
         self.Pers = pyganim.PygAnimation(arr_anim)
         self.Pers.play()
 
