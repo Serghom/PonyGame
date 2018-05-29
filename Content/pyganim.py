@@ -11,7 +11,7 @@
 # This should be compatible with both Python 2 and Python 3. Please email any
 # bug reports to Al at al@inventwithpython.com
 #
-
+#
 
 # TODO: Feature idea: if the same image file is specified, re-use the Surface object. (Make this optional though.)
 
