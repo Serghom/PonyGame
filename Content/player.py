@@ -173,7 +173,7 @@ class Pony(Sprite):
             self.Walk = False
 
 
-        # Вызов: Проверка на столконовения героя с обьектами
+        # Вызов: Проверка на столконовения героя с обьектами 
         self.collide(self.xvel, 0, Collision)
         self.rect.y += self.yvel
         self.collide(0, self.yvel, Collision)
